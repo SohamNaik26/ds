@@ -1,0 +1,5 @@
+#two sample test
+data <- read.csv(file.choose(),header=T)
+print(data)
+result <- t.test(data$Before, data$After, paired = TRUE)
+print(result)

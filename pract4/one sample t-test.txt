@@ -1,0 +1,5 @@
+one sample
+data <- read.csv(file.choose())
+print(data)
+result <- t.test(data$Score, mu = 70,alternative='greater')
+print(result)

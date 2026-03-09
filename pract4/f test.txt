@@ -1,0 +1,6 @@
+f test
+one sample
+data <- read.csv(file.choose())
+print(data)
+result <- t.test(data$timeg1,data$time_g2,alternative="two.sided")
+print(result)

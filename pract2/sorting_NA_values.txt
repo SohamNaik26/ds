@@ -1,0 +1,13 @@
+list1 = [56, 47, 25, 8, 3, 15, 46, 71, 46, 10]
+
+print("List1:", list1)
+
+print("Sorted list:", sorted(list1))
+
+print("Sorted in descending order:", sorted(list1, reverse=True))
+
+tuple1 = ((4,5), (10,12), (5,4), (8,7))
+
+print("Tuple:", tuple1)
+
+print("Sorted tuple:", sorted(tuple1))

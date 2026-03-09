@@ -1,0 +1,10 @@
+chisq test
+data <- read.csv(file.choose())
+
+print(data)
+
+table_data <- table(data$Aptitude, data$JobScore)
+
+result <- chisq.test(table_data)
+
+print(result)

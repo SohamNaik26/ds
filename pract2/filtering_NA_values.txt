@@ -1,0 +1,6 @@
+import pandas as pd
+
+d = pd.read_csv("D:/TYCS_Datasets/iris.csv")
+df = pd.DataFrame(d)
+
+df.loc[df['Age'] < 20] or df.loc[df['sepal length'] < 5]

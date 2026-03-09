@@ -1,0 +1,8 @@
+one way anova
+data <- read.csv(file.choose())
+
+print(data)
+
+result <- aov(SatIndex ~ Dept, data = data)
+
+summary(result)

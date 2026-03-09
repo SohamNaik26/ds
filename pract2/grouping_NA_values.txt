@@ -1,0 +1,9 @@
+import pandas as pd
+
+df = pd.read_csv("D:/TYCS_Datasets/iris.csv")
+
+print(df)
+
+groups = df.groupby("variety")
+
+groups.get_group("Versicolor")

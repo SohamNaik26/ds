@@ -1,0 +1,7 @@
+data <- read.csv(file.choose(), header = TRUE)
+
+print(data)
+
+anova_table <- aov(SatIndex ~ Dept * Exp, data = data)
+
+summary(anova_table)
